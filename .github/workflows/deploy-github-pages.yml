@@ -136,7 +136,7 @@ jobs:
 
     steps:
       - name: Verify ENV configuration
-        if: env.REGIONS_SHEET_IDS == '1r1M8tcmGAcJQ0E-OQOA9WVT9G6eG0qcVb9zUmTqyYzw'
+        if: env.REGIONS_SHEET_IDS == 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
         run: |
           echo "⚠️ Set the appropriate Google Spreadsheet ID in \`REGIONS_SHEET_IDS\`, instead of the default/placeholder-value: \`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\`" >> $GITHUB_STEP_SUMMARY
           echo "Edit [\`.github/workflows/deploy-github-pages.yml\`](../../edit/main/.github/workflows/deploy-github-pages.yml) to fix." >> $GITHUB_STEP_SUMMARY
